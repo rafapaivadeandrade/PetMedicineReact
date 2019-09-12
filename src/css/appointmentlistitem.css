@@ -1,0 +1,67 @@
+.pet-item.col.media.py-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pet-item.col.media.py-3 > div{
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.pet-item.col.media.py-3 > div > div{
+    display: flex;
+    flex-direction: row;
+   
+}
+.pet-delete.btn.btn-sm.btn-danger{
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+}
+  .pet-item {
+    border-bottom: 1px dotted gray;
+    padding-bottom: 10px;
+  }
+
+  .pet-item:last-child {
+    border-bottom: none;
+  }
+
+  .pet-name {
+    font-weight: 600;
+    color: #337ab7;
+    font-size: 1.3em;
+    line-height: 100%;
+  }
+
+  .pet-info {
+    font-size: 1.7em;
+  }
+
+  .label-item {
+    font-weight: 600;
+    color: #667B82;
+  }
+  
+  .pet-delete {
+    font-size: 1.2em;
+  }
+
+  .apt-date {
+    font-style: italic;
+  }
+
+  [contenteditable]:focus {
+    outline: none;
+    background: #EEE8D6; 
+  }
+  .btn.btn-primary.d-block.ml-auto{
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    
+    padding: 5px;
+    
+  }

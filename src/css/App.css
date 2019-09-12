@@ -1,0 +1,84 @@
+
+.movedropdown{
+  margin-left: 10px;
+}
+
+#action-1{
+list-style-type: none;
+text-decoration: none;
+}
+#action-2{
+list-style-type: none;
+text-decoration: none;
+}
+#action-3{
+list-style-type: none;
+text-decoration: none;
+}
+#action-4{
+list-style-type: none;
+text-decoration: none;
+}
+#action-5{
+list-style-type: none;
+text-decoration: none;
+}
+
+
+[placeholder="Search"]{
+  margin-left: 10px;
+}
+.btn.btn-primary.dropdown-toggle{
+  color: white;
+    background-color: blue;
+    border-radius: 3px;
+    margin-left: 10px;
+    
+}
+.cardtextcenter.mt-3.add-appointment .card-body {
+  display: none;
+}
+#aptForm{
+  display: none;
+}
+.apt-addheading {
+  cursor: pointer;
+  user-select: none;
+}
+
+.appointment-list {
+  font-size: 0.8em;
+}
+
+.appointment-list .pet-item {
+  border-bottom: 1px dotted gray;
+}
+
+.appointment-list .pet-item:last-child {
+  border-bottom: none;
+}
+
+.appointment-list .pet-name {
+  font-weight: 600;
+  color: #337ab7;
+  font-size: 1.3em;
+  line-height: 100%;
+}
+
+.appointment-list .label-item {
+  font-weight: 600;
+  color: #667b82;
+}
+
+.appointment-list .apt-date {
+  font-style: italic;
+}
+
+.appointment-list .apt-notes {
+  line-height: 120%;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #a9aeb2;
+}
